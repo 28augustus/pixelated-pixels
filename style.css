@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/background/home.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Pixelify Sans", sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(51, 51, 51);
+}
+
+h1 {
+  width: fit-content;
+  margin: 0 auto; /* Mag margin? */
+  font-size: 6.3rem;
+  color: rgb(253, 209, 0);
+}
+
+h2 {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 3.1rem;
+  color: rgb(253, 209, 0);
+}
+
+h3 {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  color: rgb(253, 209, 0);
+}
+
+p {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0 1rem;
+  background-color: rgb(231, 0, 18);
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 3.1rem;
+}
+
+a:hover,
+a:focus {
+  color: rgb(253, 209, 0);
+}
+
+li {
+  margin: 3rem;
+  color: rgb(253, 209, 0);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  transition: all 350ms ease;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+}
+
+.home-merch-button {
+  padding: 0 1.3rem;
+  margin-top: 5rem;
+  font-size: 6.3rem;
+  background-color: rgb(231, 0, 18);
+  transition: all 350ms ease;
+}
+
+.home-merch-button:hover,
+.home-merch-button:focus {
+  background-color: rgb(253, 209, 0);
+  color: rgb(0, 0, 0);
+}
+
+.merch-items-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.merch-items-container section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merch-item img {
+  display: block;
+  width: 100%;
+  max-width: 100px;
+  margin-top: 1.3rem;
+  height: auto;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(231, 0, 18);
+}
+
+.episodes-1 {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.episodes-1 img {
+  display: block;
+  width: 12%;
+  height: auto;
+}
+
+.episode-play-button {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+}
+
+.episode-play-button:hover,
+.episode-play-button:focus {
+  background-color: rgb(253, 209, 0);
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+}
+
+/*bronvermelding chatgpt contactformulier */
+label {
+  display: block;
+  color: rgb(253, 209, 0);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/*bronvermelding chatgpt contactformulier */
+input {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 5px solid rgb(231, 0, 18);
+  width: 20%;
+  max-width: 400px;
+  text-align: start;
+  margin-bottom: 1.3rem;
+}
+
+footer {
+  position: fixed;
+  right: 10rem;
+  bottom: 1rem;
+  font-size: 3.1rem;
+  padding: 1.3rem;
+}
+
+footer p {
+  color: rgb(253, 209, 0);
+  background-color: transparent;
+}
